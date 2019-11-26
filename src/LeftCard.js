@@ -4,7 +4,7 @@ export default class LeftCard extends React.Component {
   render() {
     let picUrls = [];
 
-    for (let i = 1; i < 151; i++) {
+    for (let i = 152; i < 252; i++) {
       if (i < 10) {
         i = "00" + i;
       } else if (i < 100) {
@@ -20,7 +20,7 @@ export default class LeftCard extends React.Component {
         className="pic-holder"
         key={index}
         onClick={() => {
-          this.props.passfunct(index + 1);
+          this.props.passfunct(index + 152);
         }}
       >
         <img src={pic} alt="pokemon img" />

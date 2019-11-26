@@ -5,7 +5,7 @@ import LeftCard from "./LeftCard";
 import RightSide from "./RightSide";
 
 export default function App() {
-  const getPokeInfo = (num = 225) => {
+  const getPokeInfo = (num = 152) => {
     let pokeNum = num;
     if (pokeNum < 10) {
       pokeNum = "00" + pokeNum;
@@ -25,7 +25,7 @@ export default function App() {
   };
 
   const [pokePic, setPokePic] = useState(
-    "https://assets.pokemon.com/assets/cms2/img/pokedex/full/.png"
+    "https://assets.pokemon.com/assets/cms2/img/pokedex/full/0.png"
   );
   const [counter, setCounter] = useState(true);
   const [pokeInfo, setpokeInfo] = useState([]);
