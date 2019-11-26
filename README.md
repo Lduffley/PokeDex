@@ -1,2 +1,0 @@
-# PokeDex
-Created with CodeSandbox
